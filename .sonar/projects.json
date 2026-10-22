@@ -1,0 +1,41 @@
+{
+  "policy": "Use a Sonar project for each real component; retain existing aggregate history.",
+  "projects": [
+    {
+      "component": "common",
+      "directory": "services/common",
+      "key": "marcelomiyake_hotel-java-simple_common",
+      "kind": "java"
+    },
+    {
+      "component": "hotel-service",
+      "directory": "services/hotel-service",
+      "key": "marcelomiyake_hotel-java-simple_hotel-service",
+      "kind": "java"
+    },
+    {
+      "component": "rate-service",
+      "directory": "services/rate-service",
+      "key": "marcelomiyake_hotel-java-simple_rate-service",
+      "kind": "java"
+    },
+    {
+      "component": "payment-service",
+      "directory": "services/payment-service",
+      "key": "marcelomiyake_hotel-java-simple_payment-service",
+      "kind": "java"
+    },
+    {
+      "component": "reservation-service",
+      "directory": "services/reservation-service",
+      "key": "marcelomiyake_hotel-java-simple_reservation-service",
+      "kind": "java"
+    },
+    {
+      "component": "frontend",
+      "directory": "frontend",
+      "key": "marcelomiyake_hotel-java-simple_frontend",
+      "kind": "web"
+    }
+  ]
+}
